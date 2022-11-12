@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Redux Calculator',
     description:"A simple calculator made using React and Redux.",
-    image: '/images/calculator.png',
+    image: '/images/Calculator.png',
     tags: ['React', 'JavaScript', 'Redux'],
     source: 'https://github.com/carzborn/calculator',
     visit: 'https://redux-react-calculator.netlify.app/',
