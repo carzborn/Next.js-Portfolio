@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'SWpedia',
-    description: "This is a project wher I made a Star Wars Wiki using th Swapi, React and Javascript. It was also the first time i implemented pagiantion.",
+    description: "This is a project where I made a Star Wars Wiki using Swapi, React and Javascript. It was also the first time i implemented pagination.",
     image: '/images/StarwarsWiki.png',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',

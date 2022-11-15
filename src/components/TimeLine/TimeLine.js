@@ -46,7 +46,8 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in massa quis lacus mattis bibendum. Nulla molestie elementum mauris vitae semper. Suspendisse vehicula hendrerit cursus. Vestibulum pretium magna nulla, eu.
+        My name is Hugo Carzborn and I am currently studying to become a Frontend Developer!
+        I'm an easy going guy who enjoys solving problems and I work just as good in teams as I do alone.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
