@@ -33,7 +33,7 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-          <Script 
+          {/* <Script 
           src="https://www.googletagmanager.com/gtag/js?id=G-8Z6ZM2RZEL"
           strategy="afterInteractive"
         />
@@ -44,7 +44,23 @@ export default class MyDocument extends Document {
             gtag('js', new Date());
             gtag('config', 'G-8Z6ZM2RZEL');
           `}
-        </Script>
+        </Script> */}
+        <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-8Z6ZM2RZEL`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-8Z6ZM2RZEL', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
         </Head>
         <body>
           <Main />

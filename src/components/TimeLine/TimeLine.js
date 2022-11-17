@@ -47,7 +47,8 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         My name is Hugo Carzborn and I am currently studying to become a Frontend Developer!
-        I'm an easy going guy who enjoys solving problems and I work just as good in teams as I do alone.
+        I'm an easy going guy who enjoys solving problems and I work just as good in teams as I do alone
+        and I am not afriad to take on new challanges!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
