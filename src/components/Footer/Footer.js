@@ -19,17 +19,13 @@ const Footer = () => {
         <FooterWrapper>
             <LinkList>
                 <LinkColumn>
-                    <LinkTitle>Call</LinkTitle>
-                    <LinkItem href='tel:+46-733-64-68-30'>+46-733-64-68-30</LinkItem>
-                </LinkColumn>
-                <LinkColumn>
                     <LinkTitle>Email</LinkTitle>
                     <LinkItem href='mailto:devcarzborn@gmail.com'>devcarzborn@gmail.com</LinkItem>
                 </LinkColumn>
             </LinkList>
             <SocialIconsContainer>
                 <CompanyContainer>
-                    <Slogan>Slow and steady wins the race</Slogan>
+                    <Slogan>All rights reserved © carzborn.dev 2022</Slogan>
                 </CompanyContainer>
                 <SocialContainer>
                     <SocialIcons href='https://github.com/carzborn' target='_blank'>
